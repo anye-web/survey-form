@@ -1,0 +1,126 @@
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 10px;
+    }
+    
+    body {
+        font-size: 2rem;
+        font-family: 'Cormorant Garamond', serif;
+        line-height: 1.5;
+        color: #fff;
+        background-image: linear-gradient(to right, rgba(60, 62, 97, 0.4), rgba(66, 68, 109, 0.6)), url("./1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    h1 {
+        margin-bottom: .7rem;
+    }
+    
+    p {
+        margin-bottom: .7rem;
+        font-size: 2.3rem;
+    }
+    
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        overflow: hidden;
+    }
+    
+    .intro {
+        text-align: center;
+        margin: 50px 0;
+    }
+    
+    .intro p {
+        font-style: italic;
+        font-size: 2.5rem;
+    }
+    
+    .form-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0;
+    }
+    
+    form {
+        background: #2D2A47;
+        padding: 3.2rem;
+        border-radius: 4px;
+    }
+    
+    label {
+        display: block;
+        font-size: 2.3rem;
+        text-transform: capitalize;
+    }
+    
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    
+    .control-input {
+        padding: 1rem 2rem;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        font-size: 1.7rem;
+    }
+    
+    .control-input:focus {
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 0.4rem rgba(0, 123, 255, 0.25);
+    }
+    
+    option {
+        font-size: 1.7rem;
+    }
+    
+    .radio-check label {
+        display: inline;
+        margin-left: 1rem;
+    }
+    
+    .rad {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    #message {
+        height: 10rem;
+    }
+    
+    .btn {
+        width: 100%;
+        text-align: center;
+        padding: 1.2rem 2rem;
+        font-size: 1.7rem;
+        color: #fff;
+        background: #37AF65;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: all .5s ease-out;
+    }
+    
+    .btn:hover {
+        background: #309657;
+        box-shadow: 0 0 0 0.4rem rgba(55, 175, 101, 0.25);
+    }
+    
+    .btn:focus {
+        border-color: #37AF65;
+        box-shadow: 0 0 0 0.4rem rgba(55, 175, 101, 0.25);
+        outline: 0;
+    }
